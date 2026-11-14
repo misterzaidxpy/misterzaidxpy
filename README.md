@@ -20,6 +20,14 @@
 
 Most AI projects stall on data, not models. I build the Python systems that get that data out of the web, clean it, and hand it to the model.
 
+```python
+>>> from misterzaid import Zaid
+>>> Zaid.hello()
+```
+```text
+ Hi, I'm Zaid. I turn the messy web into data AI can use.
+```
+
 ```text
   the web                   my pipelines                        your AI
  ─────────          ───────────────────────────           ─────────────────
@@ -55,49 +63,96 @@ Most AI projects stall on data, not models. I build the Python systems that get 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b><a href="https://github.com/misterzaidxpy/tubescrape">tubescrape</a></b><br>
-      <img src="https://img.shields.io/github/stars/misterzaidxpy/tubescrape?style=flat-square&color=3B82F6" alt="stars"/>
-      <img src="https://img.shields.io/pypi/v/tubescrape?style=flat-square&color=3B82F6" alt="PyPI version"/>
-      <img src="https://img.shields.io/pypi/dm/tubescrape?style=flat-square&color=3B82F6" alt="downloads"/>
-      <br>YouTube search, channels, playlists and transcripts with no API key. SDK, CLI and REST API. Powers a YouTube data tool on the Apify Store.
+      <h3><a href="https://github.com/misterzaidxpy/tubescrape">tubescrape</a></h3>
+      <a href="https://github.com/misterzaidxpy/tubescrape">
+        <img src="https://img.shields.io/github/stars/misterzaidxpy/tubescrape?style=flat-square" alt="stars"/>
+      </a>
+      <a href="https://pypi.org/project/tubescrape/">
+        <img src="https://img.shields.io/pypi/dm/tubescrape?style=flat-square" alt="downloads"/>
+      </a>
+      <br><br>
+      YouTube search, channels, playlists and transcripts with no API key. SDK, CLI and REST API. Powers a YouTube data tool on the Apify Store.
     </td>
     <td width="50%" valign="top">
-      <b><a href="https://github.com/misterzaidxpy/linkedinscrape">linkedinscrape</a></b><br>
-      <img src="https://img.shields.io/github/stars/misterzaidxpy/linkedinscrape?style=flat-square&color=3B82F6" alt="stars"/>
-      <br>Turns LinkedIn profiles into structured data (experience, education, skills) for profile analysis.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/misterzaidxpy/shopscout">shopscout</a></b><br>
-      <img src="https://img.shields.io/github/stars/misterzaidxpy/shopscout?style=flat-square&color=3B82F6" alt="stars"/>
-      <img src="https://img.shields.io/pypi/v/shopscout?style=flat-square&color=3B82F6" alt="PyPI version"/>
-      <br>Products, collections and pages from any Shopify store, from the public JSON API.
-    </td>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/misterzaidxpy/reddipy">reddipy</a></b><br>
-      <img src="https://img.shields.io/github/stars/misterzaidxpy/reddipy?style=flat-square&color=3B82F6" alt="stars"/>
-      <img src="https://img.shields.io/pypi/v/reddipy?style=flat-square&color=3B82F6" alt="PyPI version"/>
-      <br>Reddit posts, comment trees and user activity as structured data, with an SDK and CLI.
+      <h3><a href="https://github.com/misterzaidxpy/linkedinscrape">linkedinscrape</a></h3>
+      <a href="https://github.com/misterzaidxpy/linkedinscrape">
+        <img src="https://img.shields.io/github/stars/misterzaidxpy/linkedinscrape?style=flat-square" alt="stars"/>
+      </a>
+      <br><br>
+      Turns LinkedIn profiles into structured data (experience, education, skills) for profile analysis.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <b><a href="https://github.com/misterzaidxpy/wpscrape">wpscrape</a></b><br>
-      <img src="https://img.shields.io/github/stars/misterzaidxpy/wpscrape?style=flat-square&color=3B82F6" alt="stars"/>
-      <img src="https://img.shields.io/pypi/v/wpscrape?style=flat-square&color=3B82F6" alt="PyPI version"/>
-      <br>Products and categories from any WordPress or WooCommerce store via the public REST API.
+      <h3><a href="https://github.com/misterzaidxpy/shopscout">shopscout</a></h3>
+      <a href="https://github.com/misterzaidxpy/shopscout">
+        <img src="https://img.shields.io/github/stars/misterzaidxpy/shopscout?style=flat-square" alt="stars"/>
+      </a>
+      <a href="https://pypi.org/project/shopscout/">
+        <img src="https://img.shields.io/pypi/dm/shopscout?style=flat-square" alt="downloads"/>
+      </a>
+      <br><br>
+      Products, collections and pages from any Shopify store, from the public JSON API.
     </td>
     <td width="50%" valign="top">
-      <b><a href="https://misterzaid.com/blog/">Writing</a></b><br>
-      <br>Notes on web data, AI engineering and what I learn while building. Latest: how to get YouTube transcripts without code.
+      <h3><a href="https://github.com/misterzaidxpy/reddipy">reddipy</a></h3>
+      <a href="https://github.com/misterzaidxpy/reddipy">
+        <img src="https://img.shields.io/github/stars/misterzaidxpy/reddipy?style=flat-square" alt="stars"/>
+      </a>
+      <a href="https://pypi.org/project/reddipy/">
+        <img src="https://img.shields.io/pypi/dm/reddipy?style=flat-square" alt="downloads"/>
+      </a>
+      <br><br>
+      Reddit posts, comment trees and user activity as structured data, with an SDK and CLI.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/misterzaidxpy/wpscrape">wpscrape</a></h3>
+      <a href="https://github.com/misterzaidxpy/wpscrape">
+        <img src="https://img.shields.io/github/stars/misterzaidxpy/wpscrape?style=flat-square" alt="stars"/>
+      </a>
+      <a href="https://pypi.org/project/wpscrape/">
+        <img src="https://img.shields.io/pypi/dm/wpscrape?style=flat-square" alt="downloads"/>
+      </a>
+      <br><br>
+      Products and categories from any WordPress or WooCommerce store via the public REST API.
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/misterzaidxpy/flipkart-scraper">flipkart-scraper</a></h3>
+      <a href="https://github.com/misterzaidxpy/flipkart-scraper">
+        <img src="https://img.shields.io/github/stars/misterzaidxpy/flipkart-scraper?style=flat-square" alt="stars"/>
+      </a>
+      <br><br>
+      Full-stack product data tool: FastAPI backend, Next.js frontend, search, filtering and MySQL storage.
     </td>
   </tr>
 </table>
 
 ---
 
+### GitHub trophies
+
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=misterzaidxpy&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8" alt="GitHub trophies"/>
+</p>
+
+---
+
+### GitHub stats
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/misterzaidxpy/misterzaidxpy/main/assets/stats.svg" alt="GitHub stats" height="200"/>
+  <img src="https://raw.githubusercontent.com/misterzaidxpy/misterzaidxpy/main/assets/languages.svg" alt="Most used languages" height="200"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=misterzaidxpy&hide_border=true&background=00000000&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&sideLabels=8B949E&dates=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&stroke=30363D" alt="GitHub streak"/>
+</p>
+
+---
+
 <p align="center">
   Need web data for an AI product, or an LLM tool that works on real-world data?<br>
-  <a href="mailto:contact@misterzaid.com"><b>contact@misterzaid.com</b></a>
+  <a href="mailto:contact@misterzaid.com"><b>contact@misterzaid.com</b></a> · <a href="https://misterzaid.com/blog/">Read my writing</a>
 </p>
