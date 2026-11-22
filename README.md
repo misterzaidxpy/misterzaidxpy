@@ -119,12 +119,12 @@ Most AI projects stall on data, not models. I build the Python systems that get 
       Products and categories from any WordPress or WooCommerce store via the public REST API.
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/misterzaidxpy/flipkart-scraper">flipkart-scraper</a></h3>
-      <a href="https://github.com/misterzaidxpy/flipkart-scraper">
-        <img src="https://img.shields.io/github/stars/misterzaidxpy/flipkart-scraper?style=flat-square" alt="stars"/>
+      <h3><a href="https://github.com/misterzaidxpy/zclipper">zclipper</a></h3>
+      <a href="https://github.com/misterzaidxpy/zclipper">
+        <img src="https://img.shields.io/github/stars/misterzaidxpy/zclipper?style=flat-square" alt="stars"/>
       </a>
       <br><br>
-      Full-stack product data tool: FastAPI backend, Next.js frontend, search, filtering and MySQL storage.
+      A Claude skill that turns YouTube, Twitch and Kick streams into vertical clips with captions. Runs locally, no API keys.
     </td>
   </tr>
 </table>
